@@ -1,16 +1,19 @@
 ﻿using System.Globalization;
+using System.Runtime.ConstrainedExecution;
+
 namespace Lista1
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Exercicio1();
-            Exercicio2();
+            //Exercicio1();
+            //Exercicio2();
+            Exercicio3();
         }
 
         static void Exercicio1()
-        { 
+        {
             /*Exercício 01
             Faça um programa para ler dois valores inteiros, e depois mostrar na tela a soma desses números com uma
             mensagem explicativa, conforme exemplos.*/
@@ -20,7 +23,7 @@ namespace Lista1
             int TwoNumber = int.Parse(Console.ReadLine());
             Console.Clear();
 
-            Console.WriteLine(OneNumber+TwoNumber);
+            Console.WriteLine(OneNumber + TwoNumber);
         }
 
         static void Exercicio2()
@@ -36,6 +39,24 @@ namespace Lista1
             A = Pi * R * R;
 
             Console.WriteLine("A=" + A.ToString("F4", CultureInfo.InvariantCulture));
+        }
+
+        static void Exercicio3()
+        {
+            /*Fazer um programa para ler quatro valores inteiros A, B, C e D.A seguir, calcule e mostre a diferença do produto
+            de A e B pelo produto de C e D segundo a fórmula: DIFERENCA = (A * B - C * D).*/
+
+            int A, B, C, D, dif;
+
+            A = int.Parse(Console.ReadLine());
+            B = int.Parse(Console.ReadLine());
+            C = int.Parse(Console.ReadLine());
+            D = int.Parse(Console.ReadLine());
+
+            dif = A * B - C * D;
+
+            Console.WriteLine("DIFERENCA = " + dif);
+
         }
     }
 }
