@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DEV\\Lista1\\Lista1.csproj": {}
+    "C:\\DEV\\git_github\\Lista1.csproj": {}
   },
   "projects": {
-    "C:\\DEV\\Lista1\\Lista1.csproj": {
+    "C:\\DEV\\git_github\\Lista1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DEV\\Lista1\\Lista1.csproj",
+        "projectUniqueName": "C:\\DEV\\git_github\\Lista1.csproj",
         "projectName": "Lista1",
-        "projectPath": "C:\\DEV\\Lista1\\Lista1.csproj",
+        "projectPath": "C:\\DEV\\git_github\\Lista1.csproj",
         "packagesPath": "C:\\Users\\Laptop\\.nuget\\packages\\",
-        "outputPath": "C:\\DEV\\Lista1\\obj\\",
+        "outputPath": "C:\\DEV\\git_github\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Laptop\\AppData\\Roaming\\NuGet\\NuGet.Config",

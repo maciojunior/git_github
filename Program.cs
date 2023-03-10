@@ -10,6 +10,8 @@ namespace Lista1
             //Exercicio1();
             //Exercicio2();
             Exercicio3();
+
+            
         }
 
         static void Exercicio1()
