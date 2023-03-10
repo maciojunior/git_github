@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿using System;
+using System.Globalization;
 using System.Runtime.ConstrainedExecution;
 
 namespace Lista1
@@ -9,8 +10,8 @@ namespace Lista1
         {
             //Exercicio1();
             //Exercicio2();
-            Exercicio3();
-
+            //Exercicio3();
+              Exercicio4();
             
         }
 
@@ -59,6 +60,27 @@ namespace Lista1
 
             Console.WriteLine("DIFERENCA = " + dif);
 
+        }
+
+        static void Exercicio4() 
+        {
+            /*Fazer um programa que leia o número de um funcionário, seu número de horas trabalhadas, o valor que recebe por
+            hora e calcula o salário desse funcionário.A seguir, mostre o número e o salário do funcionário, com duas casas
+            decimais.*/
+
+            Double Func, JobTime, ValueTimeJob, Salary;
+
+            Console.WriteLine("Informe o Número do funcionário");
+            Func = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Console.WriteLine("Informe o Número de horas trabalhadas");
+            JobTime = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Console.WriteLine("Iforme o Valor de 1H de Jornada trabalhada");
+            ValueTimeJob = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            Salary = JobTime * ValueTimeJob;
+
+            Console.WriteLine("NUMBER = " + Func);
+            Console.WriteLine("SALARY = U$ " + Salary.ToString("F2", CultureInfo.InvariantCulture));
         }
     }
 }
